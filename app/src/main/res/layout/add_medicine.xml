@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="-40dp"
+    android:background="@drawable/medicines"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#FFFFFF">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:paddingBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:text="Add Medicines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/textView2" />
+
+
+    <TextView
+        android:text="Material Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/ed_MaterialName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+
+        android:background="@drawable/border"
+        android:layout_marginRight="25dp"
+        android:inputType="textPersonName"
+        android:hint="" />
+
+    <TextView
+        android:text="Molecule Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/ed_Molecule"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+
+        android:background="@drawable/border"
+        android:layout_marginRight="25dp"
+        android:inputType="textPersonName"
+        android:hint="" />
+    <TextView
+        android:text="Batch no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/ed_Batch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+
+        android:background="@drawable/border"
+        android:layout_marginRight="25dp"
+        android:inputType="textPersonName"
+        android:hint="100" />
+    <TextView
+        android:text="ExpDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/ed_expDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+
+        android:background="@drawable/border"
+        android:layout_marginRight="25dp"
+        android:inputType="textPersonName"
+        android:hint="" />
+
+    <TextView
+        android:text="Quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/ed_Quantity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+
+        android:background="@drawable/border"
+        android:layout_marginRight="25dp"
+        android:inputType="number"
+        android:hint="" />
+
+    <TextView
+        android:text="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+
+        android:background="@drawable/border"
+        android:layout_marginRight="25dp"
+        android:inputType="textPersonName"
+        android:hint="" />
+
+    <TextView
+        android:text="MRP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/ed_mrp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+
+        android:background="@drawable/border"
+        android:layout_marginRight="25dp"
+        android:inputType="textPersonName"
+        android:hint="" />
+
+    <Button
+        android:text="UPDATE"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_update" />
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

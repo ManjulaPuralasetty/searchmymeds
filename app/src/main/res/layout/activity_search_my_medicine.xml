@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_search_my_medicine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#FFFFFF">
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences|textMultiLine"
+        android:hint="Location"
+        android:ems="10"
+        android:id="@+id/et_location"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:text="Medicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPersonName"
+        android:hint="Enter the Medicine to Search"
+        android:ems="10"
+        android:id="@+id/et_med"
+        android:textColor="@android:color/black"
+        android:background="@drawable/border"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:text="Quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_qty"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:hint="Qty"
+        android:ems="10"
+        android:id="@+id/et_qty"
+        android:textColor="@android:color/black"
+        android:background="@drawable/border"
+        />
+
+
+
+    <Button
+        android:text="Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_search"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="15dp"
+        />
+</LinearLayout>
+</LinearLayout>

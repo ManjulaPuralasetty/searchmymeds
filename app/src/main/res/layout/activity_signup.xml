@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:layout_marginBottom="-40dp"
+    android:background="@drawable/medicines"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#FFFFFF">
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Spinner
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:prompt="@string/select"
+        android:entries="@array/userType"
+        android:spinnerMode="dropdown"
+        android:textColor="#0000ff" />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:alpha="0.6"
+
+        android:layout_marginTop="10dp"
+        android:background="@android:color/black"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+
+
+        android:alpha="0.6"
+        android:background="@android:color/black"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:maxLength="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+
+
+        android:alpha="0.6"
+        android:background="@android:color/black"
+        android:ems="10"
+        android:hint="Location"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+android:visibility="gone"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+
+
+        android:alpha="0.6"
+        android:background="@android:color/black"
+        android:ems="10"
+        android:hint="email"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress" />
+
+  <!--  <RadioGroup
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:id="@+id/myRadioGroup"
+
+
+    android:checkedButton="@+id/doctor" >
+
+
+
+    <RadioButton
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:id="@+id/doctor"
+
+    android:text="Pharmacist" />
+
+
+
+    <RadioButton
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    android:id="@+id/patient"
+
+    android:text="Customer" />
+
+</RadioGroup>-->
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+
+
+        android:alpha="0.6"
+        android:background="@android:color/black"
+        android:ems="10"
+        android:hint="Password"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:inputType="textPassword" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:maxLines="2"
+            android:id="@+id/latlang"
+            android:layout_width="0dp"
+            android:layout_weight="0.85"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:alpha="0.6"
+            android:background="@android:color/black"
+            android:ems="10"
+            android:hint="Lat Lang"
+            android:padding="15dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/imgMap"
+            android:layout_marginTop="4dp"
+            android:padding="5dp"
+            android:layout_weight="0.15"
+            android:layout_gravity="center"
+            android:src="@drawable/map_icon"
+            android:layout_width="30dp"
+            android:layout_height="50dp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <EditText
+        android:minLines="2"
+        android:maxLines="4"
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:alpha="0.6"
+        android:background="@android:color/black"
+        android:ems="10"
+        android:hint="Address"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Sign Up"
+        android:textColor="#ffffff"
+        android:background="#3A1AFF"
+
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/pbbar"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:indeterminate="false" />
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SearchMyMeds</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="select">select</string>
+
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Change Quantity</item>
+        <item>Fix Appointment</item>
+        <item>Location Based Hospitals</item>
+        <item>All Hospitals</item>
+        <item>Prescription Details</item>
+    </string-array>
+    <string name="title_activity_search_qty">SearchQty</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="userType">
+        <item>Pharmacy</item>
+        <item>User</item>
+
+    </string-array>
+    <string name="title_activity_map__place__pick">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

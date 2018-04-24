@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:minWidth="300dp">
+
+
+
+    <LinearLayout
+
+        android:gravity="center_vertical"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:text="Order Medicines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="Medicne Name"
+            android:layout_weight="0.8"
+            android:id="@+id/txtMedicineName"
+            android:layout_width="0dp"
+            android:layout_height="40dp" />
+
+        <Spinner
+            android:id="@+id/spinQuantity"
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"></Spinner>
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/txtConfirmOrder"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:text="Confirm Order"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</LinearLayout>

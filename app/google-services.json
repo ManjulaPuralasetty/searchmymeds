@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "869902351799",
+    "firebase_url": "https://drugapp-2d155.firebaseio.com",
+    "project_id": "drugapp-2d155",
+    "storage_bucket": "drugapp-2d155.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869902351799:android:e8f738b3e14dc165",
+        "android_client_info": {
+          "package_name": "com.drugapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869902351799-6ojcunk4pjithe2jc6723jtdg81i6si9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.drugapp",
+            "certificate_hash": "622a10825f31249526ea91e5a914f0ed097796dd"
+          }
+        },
+        {
+          "client_id": "869902351799-2hmtjeq9ijrih0ij1mtedf7coph620e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.drugapp",
+            "certificate_hash": "83fae115749685f28ba05f630d8a0921d2a7eca9"
+          }
+        },
+        {
+          "client_id": "869902351799-sd1do7buovssph42gk5udj50tape6rl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXGVh-_fJMDB8eKMdoQLyX-OLGj1Zmjcc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869902351799-sd1do7buovssph42gk5udj50tape6rl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

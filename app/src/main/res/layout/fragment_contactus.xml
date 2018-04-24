@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+
+    <TextView
+        android:text="Contact US"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/et_medicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Search Your Meds App\n
+        Address 	:\n
+Bhawani Singh Marg, Near Rambagh circle,
+Hyd-302015 (Hyderabad), INDIA\n
+Note: SDMH is located in the heart of the city. It is only 8 KM away from  Airport, 4 KM away from Gandhinagar Railway Station and 6 KM away from Main Junction.\n
+\n
+Tel. 	: 	91-141-2566251-58\n
+Fax 	: 	91-141-5110209\n
+E-mail 	: 	info@meds.in \n  "
+       />
+
+
+
+</LinearLayout>
